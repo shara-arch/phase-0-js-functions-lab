@@ -1,10 +1,16 @@
+let amount;
 function calculateTax(amount) {
     const taxRate = 0.1; // 10% tax
     return amount * taxRate;
 }
 //Test calculateTax
 let tax = calculateTax(100);
-console.log(`Tax on 100: ${tax}`);
+console.log(`Tax on ${amount}: ${tax}`);
+
+// Function to convert a string to uppercase
+function convertToUpperCase(text) {
+    return text.toUpperCase();
+}
 
 
 
