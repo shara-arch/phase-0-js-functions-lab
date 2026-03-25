@@ -29,6 +29,16 @@ function findMaximum(a, b) {
 let max = findMaximum(10, 20);
 console.log(max);
 
+//Function to test if a word is a palindrome
+function isPalindrome(word) {
+    const reversedWord = word.split('').reverse().join('');
+    if (reversedWord === word) {
+      return `${word} is a palindrome.`
+    } else {
+      return `${word} is not a palindrome.`
+    }
+}
+
 
 
 
