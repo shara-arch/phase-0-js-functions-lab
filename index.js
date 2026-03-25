@@ -14,6 +14,20 @@ function convertToUpperCase(text) {
 let name = convertToUpperCase(`name`);
 console.log(`Uppercase of 'name': ${name}`);
 
+// Function to find the maximum of two numbers
+function findMaximum(a, b) {
+    if (a > b) {
+        return `${a} is greater than ${b}`;
+}
+    else if (b > a) {
+        return `${b} is greater than ${a}`;
+    } else {
+        return `${a} is equal to ${b} `;
+    }
+}
+
+
+
 
 
 
