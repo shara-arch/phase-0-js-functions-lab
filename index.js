@@ -25,6 +25,10 @@ function findMaximum(a, b) {
         return `${a} is equal to ${b} `;
     }
 }
+//Test findMaximum
+let max = findMaximum(10, 20);
+console.log(max);
+
 
 
 
