@@ -35,9 +35,14 @@ function isPalindrome(word) {
     if (reversedWord === word) {
       return `${word} is a palindrome.`
     } else {
-      return `${word} is not a palindrome.`
+      return `${word} is NOT a palindrome.`
     }
 }
+//Test isPalindrome
+let madame = isPalindrome('madame');
+console.log(madame);//Output: madame is NOT a palindrome.
+let racecar = isPalindrome('racecar');
+console.log(racecar);//Output: racecar is a palindrome.
 
 
 
